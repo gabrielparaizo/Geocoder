@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.1/mapbox-gl.css' rel='stylesheet' />
+
+    <title>Geocoder</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- TODO: Put your HTML code in here -->
+    <div class="container">
+      <h1>Hey, Welcome to Geocoder</h1>
+      <!-- Submit Form -->
+      <form id="submit-form">
+        <input type="text" class="form-control" id="address" placeholder="Type an address">
+        <input type="submit" value="Geolocation!">
+      </form>
+      <p id="coordinates"></p>
+      <div id="map"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
